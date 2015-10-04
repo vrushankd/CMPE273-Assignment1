@@ -197,7 +197,7 @@ func main() {
 				ireqBudget, _ := strconv.Atoi(reqBudget)
 				leftoutAmt := float64(ireqBudget) - totalMarketValue
 				fmt.Println("")
-				fmt.Println("Current Market Value: ", totalMarketValue)
+				fmt.Println("Current Market Value: $", totalMarketValue)
 				fmt.Println("Unvested Amount: $", Round(leftoutAmt, 0.5, 3))
 
 			}
