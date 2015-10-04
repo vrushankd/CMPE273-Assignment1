@@ -20,7 +20,7 @@ Step 5: "Enter the stock symbol with percentage. For eg: GOOG:80,APPL:20"
         GOOG:70,APPL:30
         Note: Don't leave any space in between as it will throw you out and client terminates. If you provide 	any invalid stock symbol, it won't display any details.
 Step 6: The request is sent to the server and server responds with following output:
-        TradeID:<tradeid>
+        TradeID:1
         Stocks:<GOOG:10:$555>
         Unvested Amount:<$34>
 Step 7: It will again ask the user for the following the options:
@@ -29,7 +29,7 @@ Step 7: It will again ask the user for the following the options:
         Press 3 to exit
 Step 8: Now try selecting 2nd option. For eg: 2 and press Enter
 Step 9: "Enter the trading ID to view your profile"
-        <Enter the trading ID and press enter>
+        1
 Step 10:The trading ID is sent to the server and returns with the data associated with the trading ID.
         Stocks:<GOOG:10:$556>
         Current Market Value:<$5165>
